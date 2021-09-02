@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,6 +22,8 @@ namespace MicrosoftMvvmToolkitSourceGeneratorBug
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        public MainViewModel ViewModel = new MainViewModel();
+
         public MainPage()
         {
             this.InitializeComponent();
