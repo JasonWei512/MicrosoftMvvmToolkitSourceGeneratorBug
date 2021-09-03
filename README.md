@@ -1,6 +1,6 @@
 ## Description
 
-Microsoft MVVM Toolkit source generator attributes doesn't work well with `#region` and `#endregion`. 
+Compilation fails If the Microsoft MVVM Toolkit source generator attribute [ObservableProperty] is in a `#region` block.
 
 For example, when compiling the following code (in `MainViewModel.cs`), you will get a "`CS1038 #endregion directive expected`" error:
 
